@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Roboto:wght@300;500&display=swap');
+
+
+*{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: rgb(243, 235, 235);
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    padding: 15px;
+}
+
+li:hover{
+    background-color: rgb(90, 179, 182);
+}
+li{
+    list-style-type: none;
+    padding: 1vw;
+    font-size: 34px;
+}
+
+nav{
+    background-color: rgb(230, 46, 73);
+}
+
+nav ul {
+    display: flex; 
+    justify-content: flex-end;
+
+}
+
+.container-1{
+    display: flex;
+    height: 40vw;
+    background-color: rgba(15, 12, 12, 0.918);
+    color: white;
+}
+
+.info{
+    margin: 12vw auto;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.info p{
+    font-size: 30px;
+}
+
+.description{
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+    padding: 2vw;
+    font-size: 1.5vw;
+    text-decoration: underline;
+    color: white;
+}
+
+.container-2{
+    background-color:rgb(45, 45, 90);
+}
+
+.projects{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    cursor:pointer;
+    margin: 50px;
+}
+
+img{
+    width: 80%;
+}
+
+.link{
+    display:flex;
+    justify-content: center;
+    background-color: rgb(36, 41, 36);
+    height: 4vw;
+    width: 80%;
+}
+
+.link a{
+    text-decoration: none;
+    font-size: 23px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.showAll{
+    display:flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.fas{
+    width: 23px;
+}
+
+.show{
+    height: 4vw;
+    width: 13vw;
+    font-size: 30px;
+    border-radius: 5px;
+    background-color: rgb(74, 74, 104);
+    color: white;
+    cursor:pointer
+}
+
+.show:hover{
+    background-color: brown;
+}
+
+.footer{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    padding-top: 10vw;
+    text-align:center;
+    background-color: rgb(51, 55, 78);
+    height: 30vw;
+    border-bottom: 5px solid rgb(80, 25, 25);
+}
+
+.intro p{
+    font-size: 80px;
+    font-family: 'Roboto', sans-serif;
+    color:rgb(243, 235, 235);
+    font-weight: 600;
+    padding: 20px;
+}
+
+.intro h2{
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: white;
+    font-weight: 300;
+
+}
+
+.icons{
+    padding: 80px;
+}
+
+.fb{
+    padding: 5px;;
+}
+
+.git{
+    padding: 5px;
+}
+
+.tweet{
+    padding:5px;
+}
+
+.at{
+    padding: 5px;
+}
+
+.mob{
+    padding: 5px;
+}
+
+.icons{
+    display:flex;
+    justify-content: center;
+}
+
+.facebook:hover{
+    transform: translate(0px,10px);
+    transition: transform 1s;
+}
+
+.github:hover{
+    transform: translate(0px,10px);
+    transition: transform 1s;
+}
+
+.twitter:hover{
+    transform: translate(0px,10px);
+    transition: transform 1s;
+}
+
+.mail:hover{
+    transform: translate(0px,10px);
+    transition: transform 1s;
+}
+
+.mobile:hover{
+    transform: translate(0px,10px);
+    transition: transform 1s;
+}
+
+.bottom{
+    display:flex;
+    justify-content: center;
+    height: 5vw;
+    background-color: rgb(51, 55, 78);
+    padding: 40px 5px 5px 5px;
+}
+
+.bottom p{
+    padding-right: 5vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color:wheat;
+    font-size: 25px;
+}
+
+.fa-creative-commons{
+    padding: 5px;
+}
+
+
+
+
+
+
